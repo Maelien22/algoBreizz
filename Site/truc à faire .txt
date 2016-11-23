@@ -1,0 +1,20 @@
+Faire une demande d'inscription
+
+une fois validée générer un mot de passe 
+
+faire une modification de mot de passe 
+
+
+
+Class activ dans nav bar 
+
+
+
+## produit ##
+
+Enlever la catégorie de partout 
+
+
+## client ##
+
+valider client
