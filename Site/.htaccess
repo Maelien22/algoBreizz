@@ -14,3 +14,7 @@ RewriteEngine on
  
 # Article avec numéro de page :
 RewriteRule ^admin-([a-z-]*)   controller/back/$1.php [L]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 452bf7c385dfb62585ce16cfe8c6d368414c95a7
