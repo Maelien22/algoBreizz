@@ -8,8 +8,11 @@ require('../../model/back/admin.php');
 $id = $_SESSION['id'];
 $info = getinfo_user($id);
 
+ob_start();
 
 include('../../view/back/template/pages/profil.php');
+
+
 
 if(isset($_POST['username']) AND isset($_POST['email'])){
     $usernamenew = htmlspecialchars(trim($_POST['username']));
@@ -45,4 +48,7 @@ if(isset($_POST['password1']) AND isset($_POST['password2'])){
         echo"Les mots de passe ne correspondent pas";
     }
 }
+$test = ob_end_flush();
+
+header('Location: profil.php');
 ?>

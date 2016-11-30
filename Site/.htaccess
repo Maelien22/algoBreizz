@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 # Le serveur doit suivre les liens symboliques :
 Options +FollowSymlinks
@@ -16,26 +14,3 @@ RewriteEngine on
  
 # Article avec numéro de page :
 RewriteRule ^admin-([a-z-]*)   controller/back/$1.php [L]
-
-
-=======
-
-
-# Le serveur doit suivre les liens symboliques :
-Options +FollowSymlinks
- 
-# Activation du module de réécriture d'URL :
-RewriteEngine on
- 
-#--------------------------------------------------
-# Règles de réécriture d'URL :
-#--------------------------------------------------
- 
-# Article sans numéro de page :
-# RewriteRule^page1\.php$ page2.html [R]
- 
-# Article avec numéro de page :
-RewriteRule ^admin-([a-z-]*)   controller/back/$1.php [L]
-
-
->>>>>>> origin/master

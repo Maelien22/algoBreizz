@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Trebuchet MS";
+}
+
+body {
+	font-family: "Trebuchet MS";
+}
+
+#background {
+
+}
+
+#panelco {
+	background-color: grey;
+	padding: 30px;
+	border-radius: 15px;
+	position: relative;
+}
